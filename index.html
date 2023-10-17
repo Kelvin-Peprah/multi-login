@@ -6,44 +6,75 @@
     <meta name="description" content="This is a the most awesome login landing page">
     <meta name="robots" content="index, follow">
     <title>Multi login page</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <form>
       <h2>Registration</h2>
-      <div>
-        <p id="header-personal">Personal Details</p>
-        <div>
-          <p>Full name</p>
+      <div class="personal-container">
+        <p>Personal Details</p>
+        <div class="details-container">
+          <div>
+            <p>Full name</p>
           <input type="text" placeholder="Enter your name">
-          <p>Date of Birth</p>
+          </div>
+          <div>
+            <p>Date of Birth</p>
           <input type="text" placeholder="Enter birth date">
-          <p>Email</p>
-          <input type="email" placeholder="Enter your email">
+          </div>
+          <div>
+            <p>Email</p>
+            <input type="email" placeholder="Enter your email">
+          </div>
         </div>
-        <div>
-          <p>Mobile number</p>
+        <div class="details-container">
+          <div>
+            <p>Mobile number</p>
           <input type="text" placeholder="Enter mobile number">
-          <p>Gender</p>
-          <input type="text" placeholder="Enter your gender">
-          <p>Occupation</p>
-          <input type="text" placeholder="Enter your occupation">
+          </div>
+          <div>
+            <p>Gender</p>
+            <input type="text" placeholder="Enter your gender">
+          </div>
+          <div>
+            <p>Occupation</p>
+            <input type="text" placeholder="Enter your occupation">
+          </div>
         </div>
       </div>
-      <div>
-        <p id="header-personal">Identity Details</p>
-        <p>ID Type</p>
-        <input type="text" placeholder="Enter ID type">
-        <p>ID Number</p>
-        <input type="text" placeholder="Enter ID number">
-        <p>Issue Authority</p>
-        <input type="text" placeholder="Enter issue department">
-
-        <p>issue Date</p>
-        <input type="text" placeholder="Enter ID issue date">
-        <p>Issue State</p>
-        <input type="text" placeholder="Enter ID issue state">
-        <p>Expiry Date</p>
-        <input type="text" placeholder="Enter ID expiry date">
+      <div class="personal-container">
+        <p>Identity Details</p>
+        <div class="details-container">
+          <div>
+            <p>ID Type</p>
+          <input type="text" placeholder="Enter ID type">
+          </div>
+          <div>
+            <p>ID Number</p>
+            <input type="text" placeholder="Enter ID number">
+          </div>
+          <div>
+            <p>Issue Authority</p>
+          <input type="text" placeholder="Enter issue department">
+          </div>
+        </div>
+        <div class="details-container">
+          <div>
+            <p>issue Date</p>
+          <input type="text" placeholder="Enter ID issue date">
+          </div>
+          <div>
+            <p>Issue State</p>
+            <input type="text" placeholder="Enter ID issue state">
+          </div>
+          <div>
+            <p>Expiry Date</p>
+          <input type="text" placeholder="Enter ID expiry date">
+          </div>
+        </div>
+        <div>
+          <button>Next &#8594</button>
+        </div>
       </div>
     </form>
   </body>

@@ -1,0 +1,9 @@
+.personal-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-container {
+  display: flex;
+  flex-flow: row wrap;
+}

@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  font-family: arial;
+}
+body {
+  background-color: rgb(40, 131, 250);
+}
+form {
+  background-color: white;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .personal-container {
   display: flex;
   flex-direction: column;
@@ -6,4 +23,43 @@
 .details-container {
   display: flex;
   flex-flow: row wrap;
+  gap: 15px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 18px 0 5px 0;
+}
+::placeholder {
+  font-size: 13px;
+  color: rgb(123, 124, 124);
+}
+
+input {
+  padding: 10px 5px;
+  color: rgb(123, 124, 124);
+  border: 21x solid rgb(123, 124, 124);
+}
+
+.header {
+  color: rgb(123, 124, 124);
+  font-size: 16px;
+  width: 200px;
+}
+
+button {
+  background-color: rgb(40, 131, 250);
+  color: white;
+  padding: 10px 50px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(40, 131, 250);
+  border: 1px solid rgb(40, 131, 250);
 }

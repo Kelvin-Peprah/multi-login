@@ -1,1 +1,1 @@
-This is a multi login screen that accepts user inputs.
+This multi login screen accepts user inputs.

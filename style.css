@@ -4,26 +4,31 @@
 }
 body {
   background-color: rgb(40, 131, 250);
+  display: flex;
+  justify-content: center;
 }
 form {
   background-color: white;
   margin: 50px;
   padding: 20px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .personal-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .details-container {
   display: flex;
   flex-flow: row wrap;
   gap: 15px;
+}
+
+h2 {
+  text-align: justify;
 }
 
 p {
@@ -39,7 +44,8 @@ p {
 input {
   padding: 10px 5px;
   color: rgb(123, 124, 124);
-  border: 21x solid rgb(123, 124, 124);
+  border: 1px solid rgb(123, 124, 124);
+  border-radius: 5px;
 }
 
 .header {
